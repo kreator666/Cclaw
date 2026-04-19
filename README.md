@@ -1,8 +1,8 @@
-# comedy-writer
+# Cclaw
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
-基于喜剧理论体系的模块化喜剧创作技能。诊断素材 → 匹配手法 → 输出成品。
+全球首个开源喜剧创作 AI。基于喜剧理论体系的模块化喜剧创作技能，诊断素材 → 匹配手法 → 输出成品。
 
 ## 架构
 
