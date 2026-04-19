@@ -1,4 +1,4 @@
-# 喜剧模板（参考索引）
+# 模板索引（内部参考）
 
 > 本文件已重构。请使用以下新路径：
 
@@ -22,8 +22,8 @@
 
 ## 喜剧类型选择
 
-见 `knowledge/theory/comedy-types.md`
+见 `knowledge/theory/9d01e4da.md`
 
 ## 理论依据
 
-见 `knowledge/theory/` 目录
+见 `knowledge/theory/` 目录（已哈希化）

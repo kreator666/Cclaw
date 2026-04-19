@@ -1,20 +1,16 @@
-# 喜剧理论（参考索引）
+# 理论索引（内部参考）
 
-> 本文件已重构。请使用以下新路径：
+> 本目录已重构，文件已哈希化。请使用下方新路径。
 
-## 理论文件（新路径）
-
-| 主题 | 文件 |
+| 主题 | 文件（哈希索引） |
 |------|------|
-| 柏格森核心理论 | `knowledge/theory/bergson.md` |
-| 中国相声包袱 | `knowledge/theory/xiangsheng.md` |
-| 弗洛伊德释放机制 | `knowledge/theory/freud.md` |
-| 喜剧类型速查 | `knowledge/theory/comedy-types.md` |
+| 喜剧创作核心原理（必读） | `knowledge/theory/eb7cb5ef.md` |
+| 包袱结构与铺垫节奏 | `knowledge/theory/ac07d434.md` |
+| 笑的心理学机制 | `knowledge/theory/126b44e8.md` |
+| 喜剧类型速查 + 推荐手法 | `knowledge/theory/9d01e4da.md` |
 
-## 旧文件说明
-
-以下文件保留仅作备份：
-- `comedy-templates.md` → 已拆分至 `outputs/` 各模板
-- 本文件（comedy-theory.md）→ 已拆分至 `knowledge/theory/` 各文件
-
-建议直接使用新路径的文件。
+旧路径（已失效）：
+- `knowledge/theory/bergson.md` → 已更名为 `eb7cb5ef.md`
+- `knowledge/theory/freud.md` → 已更名为 `126b44e8.md`
+- `knowledge/theory/xiangsheng.md` → 已更名为 `ac07d434.md`
+- `knowledge/theory/comedy-types.md` → 已更名为 `9d01e4da.md`
