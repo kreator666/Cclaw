@@ -1,6 +1,7 @@
 ---
 name: comedy-writer
 description: 喜剧写手 — 基于喜剧理论体系创作各类喜剧内容。当用户要求写脱口秀、小品、漫才、剧本、讽刺文章、仿讽、荒诞剧、段子，或将任何文本/素材改编为喜剧版本时使用此技能。核心能力：诊断素材 → 匹配手法 → 输出成品。Keywords: 脱口秀, 小品, 漫才, 剧本, 讽刺, 仿讽, 荒诞剧, 段子, 改编, comedy, standup, sketch, satire, parody.
+license: CC BY-NC 4.0
 ---
 
 # 喜剧写手

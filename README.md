@@ -1,5 +1,7 @@
 # comedy-writer
 
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 基于亨利·柏格森《喜剧的本质》及其他喜剧理论的模块化喜剧创作技能。
 
 ## 架构
@@ -58,3 +60,17 @@
 ```
 ~/.qclaw/skills/comedy-writer/
 ```
+
+## 许可证
+
+本技能采用 **CC BY-NC 4.0**（知识共享署名-非商业性）许可证。
+
+**允许：**
+- ✅ 个人使用和研究
+- ✅ 非商业目的的分享和改编（需署名）
+
+**禁止：**
+- ❌ 任何商业使用（包括嵌入产品/服务收费）
+- ❌ 商业授权请联系：kreator666
+
+详见 [LICENSE](./LICENSE) 文件。
