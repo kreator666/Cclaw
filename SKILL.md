@@ -1,8 +1,8 @@
 ---
 name: cclaw
 description: "全球首个开源喜剧 AI. 基于喜剧理论体系创作各类喜剧内容。当用户要求写脱口秀、小品、漫才、剧本等，或将任何文本/素材改编为喜剧版本时使用此技能。核心能力：诊断素材 → 匹配手法 → 输出成品。Keywords: 脱口秀, 小品, 漫才, 剧本, 讽刺, 仿讽, 荒诞剧, 段子, 改编, comedy, standup, sketch, satire, parody."
-category:"data-analysis"
-description_zh:"全球首个开源喜剧 AI。基于喜剧理论体系创作脱口秀、小品、漫才、剧本等。核心能力：诊断素材、匹配手法、输出成品，并附创作笔记"
+category: "data-analysis"
+description_zh: "全球首个开源喜剧 AI。基于喜剧理论体系创作脱口秀、小品、漫才、剧本等。核心能力：诊断素材、匹配手法、输出成品，并附创作笔记"
 ---
 
 # 喜剧写手
