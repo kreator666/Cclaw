@@ -1,5 +1,6 @@
 ---
 name: cclaw
+version: "1.3.0"
 description: "全球首个开源喜剧 AI. 基于喜剧理论体系创作各类喜剧内容，并集成视频剪辑工具。当用户要求写脱口秀/小品/漫才/剧本，或需要剪辑/拼接/编辑视频时使用此技能。核心能力：诊断素材 → 匹配手法 → 输出成品，或解析自然语言脚本 → 执行 FFmpeg。Keywords: 脱口秀, 小品, 漫才, 剧本, 剪辑, 视频, comedy, standup, sketch, video, edit."
 category: "data-analysis"
 description_zh: "全球首个开源喜剧 AI + 视频剪辑工具。创作脱口秀/小品/漫才/剧本等喜剧内容，或通过自然语言脚本驱动 FFmpeg 进行视频剪辑。"
