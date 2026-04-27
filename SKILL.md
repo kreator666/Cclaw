@@ -1,19 +1,18 @@
 ---
 name: cclaw
-version: "1.5.1"
-description: "全球首个开源喜剧 AI. 基于喜剧理论体系创作各类喜剧内容，并集成视频剪辑工具。当用户要求写脱口秀/小品/漫才/剧本，或需要剪辑/拼接/编辑视频时使用此技能。核心能力：诊断素材 → 匹配手法 → 输出成品，或解析自然语言脚本 → 执行 FFmpeg。Keywords: 脱口秀, 小品, 漫才, 剧本, 剪辑, 视频, comedy, standup, sketch, video, edit."
+version: "1.7.0"
+description: "Open-source comedy AI + video editing + poster generation. Create standup/sketch/manzai/scripts, edit videos via FFmpeg, and generate comedy posters via canvas-design. Supports Damai/Maoyan/Xiudong platform specs. Keywords: comedy, standup, sketch, video, edit, poster, canvas."
+description_zh: "全球首个开源喜剧 AI + 视频剪辑 + 海报生成工具。创作脱口秀/小品/漫才/剧本等喜剧内容，或通过自然语言脚本驱动 FFmpeg 进行视频剪辑，或生成脱口秀/演出/金句海报及大麦/猫眼/秀动等平台标准规格物料。"
 category: "data-analysis"
-description_zh: "全球首个开源喜剧 AI + 视频剪辑工具。创作脱口秀/小品/漫才/剧本等喜剧内容，或通过自然语言脚本驱动 FFmpeg 进行视频剪辑。"
----
 
-# Cclaw — 喜剧写手 + 视频剪辑
+# Cclaw — 喜剧写手 + 视频剪辑 + 海报生成
 
 ## 技能架构
 
 本技能分两大模块：
 
 1. **writing** — 喜剧文本创作（知识驱动）
-2. **tools** — 工具执行（脚本驱动）
+2. **tools** — 工具执行（脚本驱动：视频剪辑 + 海报生成）
 
 ```
 Cclaw/
@@ -23,7 +22,7 @@ Cclaw/
 │   ├── writing/          ← 7种喜剧输出模板
 │   └── tools/
 │       ├── video/        ← 视频剪辑（FFmpeg + 自然语言脚本）
-│       └── poster/       ← 海报生成（结构预留，暂不实现）
+│       └── poster/       ← 海报生成（brief驱动 + canvas-design视觉）
 ├── knowledge/
 │   ├── theory/           ← 喜剧底层原理（必读）
 │   └── cases/            ← 案例库 + 创作方法论（必读）★
@@ -40,6 +39,7 @@ Cclaw/
 
 - 文本创作 → 进入 **Step 1B**
 - 视频工具 → 进入 Step 2B
+- 海报工具 → 进入 Step 2C
 
 ### Step 1B：意图确认分支
 
@@ -177,6 +177,31 @@ H. 温暖治愈（笑着笑着被打动了）
 → 读取 `modules/tools/video/README.md`
 → 解析自然语言脚本
 → 生成 FFmpeg 命令并执行
+
+### Step 2C：海报工具（brief 驱动）
+
+→ 读取 `modules/tools/poster/README.md`
+→ 识别海报类型：
+  - **通用海报**：standup-poster / comedy-show / social-card
+  - **演出平台海报**：damai-poster / maoyan-poster / damai-detail / maoyan-detail
+  - **Banner**：banner-maoyan / banner-xiudong / banner-damai-999 / banner-damai-1404
+→ **信息收集**（两步）：
+  - 场景A：刚创作完内容 → 自动提取（标题/金句/作者），只确认缺失信息
+  - 场景B：单独请求 → 交互确认 brief 模板中的必填字段
+→ **填充 design brief**：读取对应 `briefs/<类型>.md` 模板，用收集的信息填充
+→ **调用 canvas-design**：将填充好的 brief 作为 canvas-design 的输入，按其工作流生成视觉作品
+→ 输出 PNG 或 PDF
+
+**演出平台规格速查：**
+| 类型 | 尺寸 | 用途 |
+|------|------|------|
+| 大麦海报 | 1020×1360 | APP首图 |
+| 猫眼海报 | 1800×2400 (≤2M) | APP首图 |
+| 大麦详情 | 1020px宽 | 详情页长图 |
+| 猫眼详情 | 800px宽 (≤13M) | 详情页长图，支持动图 |
+| 猫眼Banner | 1053×180 | 首页轮播 |
+| 秀动Banner | 1114×200 | 首页轮播 |
+| 大麦Banner | 999×375 / 1404×320 | 首页/活动页 |
 
 ### Step 3：输出
 
