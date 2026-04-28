@@ -72,6 +72,7 @@ Cclaw/
 A. 脱口秀
 B. 漫才
 C. Sketch 短喜剧
+D. 日式短剧（コント）
 
 > 示例A回复：「A」  
 > 示例B回复：「A，我想讲程序员的生活」
@@ -105,6 +106,14 @@ C. Sketch 短喜剧
 4. 小众脑洞、荒诞短剧设定
 
 > 示例回复：「3」或「3，我想讽刺那些跟风考研的人」
+
+若选择【日式短剧】，请挑选创作内核：
+1. 极端性格被逼到极限（偏执/懦弱/自大/较真）
+2. 日常场景被打破（办公室/医院/便利店/家里）
+3. 明确目标+层层阻碍升级
+4. 荒诞反转收尾
+
+> 示例回复：「1」或「1，我想写一个偏执狂在便利店买东西」
 
 ---
 
@@ -225,6 +234,7 @@ H. 温暖治愈（笑着笑着被打动了）
 | `knowledge/theory/ac07d434.md` | 包袱结构与铺垫节奏（三番四抖、重复升级） |
 | `knowledge/theory/126b44e8.md` | 笑的心理学机制（期望落空、压抑释放） |
 | `knowledge/theory/9d01e4da.md` | 喜剧类型速查（各类型特征与核心手法） |
+| `knowledge/theory/japanese-sketch.md` | 日式短剧（コント）创作理论（角色/情境/目的三要素、起承转合四步结构、装傻吐槽机制、节奏铁律） |
 
 ### 案例库（创作参考，★本次强化）★
 
@@ -235,6 +245,7 @@ H. 温暖治愈（笑着笑着被打动了）
 | 脱口秀 | `knowledge/cases/standup/` | 成长路径模型、三大杂念粉碎法、排毒日记法、脱口秀第一课一二章笔记、灵感库训练体系 | ✅ 充实 |
 | 小品 | `knowledge/cases/sketch/` | 小品结构模板、人物关系设计 | ✅ 有模板 |
 | 漫才 | `knowledge/cases/manzai/` | 目录待填充 | ⚠️ 空目录 |
+| 日式短剧 | `knowledge/cases/japanese-sketch/` | 目录待填充 | ⚠️ 空目录 |
 | 仿讽 | `knowledge/cases/parody/` | 目录待填充 | ⚠️ 空目录 |
 | 剧本 | `knowledge/cases/script/` | 目录待填充 | ⚠️ 空目录 |
 
@@ -243,6 +254,7 @@ H. 温暖治愈（笑着笑着被打动了）
 **特别说明：**
 - `knowledge/cases/standup/growth-path.md` — **脱口秀创作者心法**，包含成长阶段模型、排毒日记法（素材挖掘格式）、三大杂念粉碎法。**创作脱口秀时必读。**
 - `knowledge/cases/sketch/sketch创作模板_平台课程.md` — **小品创作模板**，包含小品三要素、四种节奏、人物弧线设计。
+- `knowledge/theory/japanese-sketch.md` — **日式短剧（コント）核心理论**，包含角色/情境/目的三要素、起承转合四步结构、装傻吐槽机制、15秒节奏铁律。**创作日式短剧时必读。**
 
 ### 输出模板
 
@@ -251,6 +263,7 @@ H. 温暖治愈（笑着笑着被打动了）
 | 脱口秀 | `modules/writing/standup-template.md` |
 | 小品 | `modules/writing/sketch-template.md` |
 | 漫才 | `modules/writing/manzai-template.md` |
+| 日式短剧 | `modules/writing/japanese-sketch-template.md` |
 | 剧本 | `modules/writing/script-template.md` |
 | 讽刺 | `modules/writing/satire-template.md` |
 | 仿讽 | `modules/writing/parody-template.md` |
