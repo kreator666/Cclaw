@@ -1,6 +1,6 @@
 ---
 name: cclaw
-version: "1.7.0"
+version: "1.8.0"
 description: "Open-source comedy AI + video editing + poster generation. Create standup/sketch/manzai/scripts, edit videos via FFmpeg, and generate comedy posters via canvas-design. Supports Damai/Maoyan/Xiudong platform specs. Keywords: comedy, standup, sketch, video, edit, poster, canvas."
 description_zh: "全球首个开源喜剧 AI + 视频剪辑 + 海报生成工具。创作脱口秀/小品/漫才/剧本等喜剧内容，或通过自然语言脚本驱动 FFmpeg 进行视频剪辑，或生成脱口秀/演出/金句海报及大麦/猫眼/秀动等平台标准规格物料。"
 category: "data-analysis"

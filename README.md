@@ -28,7 +28,7 @@ AI 完成"从零到一"，人完成从一到无穷。
 ### 喜剧文本创作
 
 - 一事、一情、一念，即可生成完整喜剧文本，让氛围写作变成现实。
-- 内置脱口秀、小品、漫才、剧本、讽刺、仿讽、荒诞剧等 **7 种全类型结构**。
+- 内置脱口秀、小品、漫才、日式短剧（コント）、剧本、讽刺、仿讽、荒诞剧等 **8 种全类型结构**。
 - 语言口语、节奏利落、气质鲜明，适配线上传播，也适配喜剧舞台。
 - 知识驱动：基于喜剧理论体系 + 案例库，不是随机堆梗，而是有章法地制造笑点。
 - 尊重创作者风格，不模板化，不千人一面。
@@ -115,10 +115,11 @@ skillhub install cclaw
 ├── commands.md                  # 用户命令配置（文本+视频）
 ├── LICENSE                      # MIT No Attribution
 ├── modules/
-│   ├── writing/                 # 喜剧输出模板（7种）
+│   ├── writing/                 # 喜剧输出模板（8种）
 │   │   ├── standup-template.md  # 脱口秀
 │   │   ├── sketch-template.md   # 小品
 │   │   ├── manzai-template.md   # 漫才
+│   │   ├── japanese-sketch-template.md # 日式短剧（コント）
 │   │   ├── script-template.md   # 剧本
 │   │   ├── satire-template.md   # 讽刺文
 │   │   ├── parody-template.md   # 仿讽
@@ -149,12 +150,13 @@ skillhub install cclaw
 │   │   ├── ac07d434.md         # 包袱结构与铺垫节奏
 │   │   ├── 126b44e8.md         # 笑的心理学机制
 │   │   └── 9d01e4da.md         # 喜剧类型速查 + 推荐手法
-│   └── cases/                   # 案例库 + 创作方法论（必读）
-│       ├── standup/             # 脱口秀案例（充实 ✅）
-│       ├── sketch/              # 小品案例（有模板 ✅）
-│       ├── manzai/              # 漫才（待填充）
-│       ├── parody/              # 仿讽（待填充）
-│       └── script/              # 剧本（待填充）
+│   ├── cases/                   # 案例库 + 创作方法论（必读）
+│   │   ├── standup/             # 脱口秀案例（充实 ✅）
+│   │   ├── sketch/              # 小品案例（有模板 ✅）
+│   │   ├── japanese-sketch/    # 日式短剧案例（待填充）
+│   │   ├── manzai/              # 漫才（待填充）
+│   │   ├── parody/              # 仿讽（待填充）
+│   │   └── script/              # 剧本（待填充）
 └── references/                  # 索引
     ├── comedy-theory.md         # 理论文件索引
     └── comedy-templates.md      # 模板文件索引
@@ -180,6 +182,14 @@ Cclaw 采用**三步路由**架构：
 核心手法：弹簧魔鬼 / 雪球效应 / 系列干扰 / 换位 / 反转 / 三番四抖 / 连续否认 / Call Back（遗忘后再炸）
 
 ## 版本历史
+
+### v1.8.0 (2026-04-28)
+- 新增日式短剧（コント）创作类型
+- 新增 8 条核心原则：装傻彻底、留白停顿（日式喜剧灵魂）
+- 完善理论基础：起承转合四步结构、节奏铁律（15秒小/1分钟大）、三谷幸喜心法
+- 新增创作模板：modules/writing/japanese-sketch-template.md
+- 新增案例目录：knowledge/cases/japanese-sketch/
+- 发布至 ClawHub
 
 ### v1.7.0 (2026-04-27)
 - 新增海报生成模块，支持 3 种基础海报类型 + 8 种演出平台规格
