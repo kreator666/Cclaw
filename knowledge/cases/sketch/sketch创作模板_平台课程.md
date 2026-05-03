@@ -7,7 +7,7 @@ tags: sketch, 素描喜剧, 前提, Premise, 情境喜剧, 多角色
 # Sketch素描喜剧创作模板（平台课程框架）
 
 ## 来源
-文件：C:\Users\tiger\Desktop\喜剧知识库\意辰的sketch作品档案.docx
+文件：C:\Users\tiger\Desktop\喜剧知识库\sketch作品档案.docx
 分类：cases/sketch
 主题：6天训练模板——从灵感到完整作品
 
