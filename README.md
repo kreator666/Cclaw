@@ -1,6 +1,6 @@
 ---
 name: cclaw
-version: 1.9.2
+version: 1.10.0
 description: "Open-source comedy AI + video editing + poster generation. Create standup/sketch/manzai/scripts, edit videos via FFmpeg, and generate comedy posters via canvas-design. Supports Damai/Maoyan/Xiudong platform specs. Keywords: comedy, standup, sketch, video, edit, poster, canvas."
 description_zh: "全球首个开源喜剧 AI + 视频剪辑 + 海报生成工具。创作脱口秀/小品/漫才/剧本等喜剧内容，或通过自然语言脚本驱动 FFmpeg 进行视频剪辑，或生成脱口秀/演出/金句海报及大麦/猫眼/秀动等平台标准规格物料。"
 category: "data-analysis"
@@ -216,6 +216,14 @@ Cclaw 采用**四步路由**架构：
 ---
 
 ## 📋 版本历史
+
+### v1.10.0 (2026-05-10)
+- ✅ 模板输出规格修复：正文不含结构标签，结构规划移入创作笔记
+- ✅ 知识库文件哈希化：Sketch写作手册→sketch-writing-guide-HWTWC.md，幽默修辞方法→humor-rhetoric-methods-HRC.md
+- ✅ 新增理论文件：humor-rhetoric-methods-HRC.md（六大修辞律：岔断/倒置/转移/干涉/降格/升格）
+- ✅ Call Back 定义修正：遗忘后再炸（非呼应/回归）
+- ✅ 8个输出模板全部更新（standup/sketch/manzai/japanese-sketch/script/satire/parody/absurdist）
+- ✅ 案例库去名化：清除所有人名/书名引用
 
 ### v1.9.2 (2026-05-03)
 - 知识库全面去名化：清除所有人名/书名引用（意辰、三谷幸喜、岩崎う大 等）
