@@ -219,14 +219,13 @@ Cclaw 采用**四步路由**架构：
 
 ### v1.10.0 (2026-05-10)
 - ✅ 模板输出规格修复：正文不含结构标签，结构规划移入创作笔记
-- ✅ 知识库文件哈希化：Sketch写作手册→sketch-writing-guide-HWTWC.md，幽默修辞方法→humor-rhetoric-methods-HRC.md
 - ✅ 新增理论文件：humor-rhetoric-methods-HRC.md（六大修辞律：岔断/倒置/转移/干涉/降格/升格）
 - ✅ Call Back 定义修正：遗忘后再炸（非呼应/回归）
 - ✅ 8个输出模板全部更新（standup/sketch/manzai/japanese-sketch/script/satire/parody/absurdist）
 - ✅ 案例库去名化：清除所有人名/书名引用
 
 ### v1.9.2 (2026-05-03)
-- 知识库全面去名化：清除所有人名/书名引用（意辰、三谷幸喜、岩崎う大 等）
+- 知识库全面去名化
 - 日式短剧理论新增「七步展开结构（怪人-直人升级模型）」
 
 ### v1.9.1 (2026-04-30)
